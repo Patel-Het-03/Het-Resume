@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Interactive Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1 class="logo">Het Patel</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+   <!-- Theme Switcher -->
+  <button id="theme-toggle">🌙</button>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h2 class="glow">Hi, I’m <span>Het Patel</span></h2>
+      <p id="typing-text"></p>
+      <a href="#about" class="cta-btn">View My Resume</a>
+    </div>
+  </section>
+
+
+  <!-- About -->
+  <section id="about">
+    <div style="text-align: center;">
+    <h2>About Me</h2>
+    <fieldset>
+    <p>
+      Hello! I am <strong>Het Patel</strong>, a passionate 
+      <em>Full-Stack Developer</em> with a love for 
+      <mark>creative problem solving</mark>. 
+      I specialize in building interactive web applications 
+      and scalable systems. 
+      <abbr title="Application Programming Interface">API</abbr> design is one of my strongest skills. To Perceive a career in a renowned firm with dedicated efforts and to associate myself with an
+organizaton that gives me a chance to update my knowledge.
+To obtain a positve where my experience and education can be utlized and expanded
+    </p>
+    </fieldset>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <div style="text-align: center;">
+    <h2>Work Experience</h2>
+    <fieldset>
+    <article class="job">
+      <h3>Software Engineer – TechCorp</h3>
+      <p><em>Jan 2022 – Present</em></p>
+      <ol>
+        <li> 1. Developed scalable backend services.</li>
+        <li>2. Improved app performance by 30%.</li>
+        <li>3. Collaborated with team to develop website using Python, MYSQL</li>
+      </ol>
+      <details>
+        <summary>More details</summary>
+        <p>Clickaway IT Solution | Ahmedabad, India Jun 2022 – Mar 2023
+Web Development (Internship) </p>
+      </details>
+    </article>
+    </fieldset>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <div style="text-align: center;">
+    <h2>Education</h2>
+    <table id="edu-table">
+      <tr>
+        <th>Degree</th><th>Institution</th><th>Graduation</th><th>GPA</th><th>Achievements</th>
+      </tr>
+      
+      <tr>
+        <td>BCA Computer Application</td>
+        <td><img src="download.jpg" alt="Uni Logo" width="30%"> Shri Chimanbhai Patel Institute of Management & research </td>
+        <td>May 2023</td>
+        <td>6.9</td>
+        <td>Dean’s List</td>
+      </tr>
+
+      <tr>
+        <td>MCA Master of Computer Science </td> 
+        <td><img src="download (3).jpg" alt="Uni Logo" width="30%" height="150"> Long Island University Brooklyn </td>
+        <td>May 2026</td>
+        <td>3.7 </td>
+        <td>Best project Award</td>
+      </tr>
+    
+    </table>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div style="text-align: center;">
+    <h2>Skills</h2>
+    <fieldset>
+      <legend>Technical Skills</legend>
+      <label>HTML</label><progress value="90" max="100"></progress>
+      <label>CSS</label><progress value="80" max="100"></progress>
+      <label>JavaScript</label><progress value="85" max="100"></progress>
+      <label>Java</label><progress value="82" max="100"></progress>
+      <label>PHP</label><progress value="80" max="100"></progress>
+      <label>Python</label><progress value="85" max="100"></progress>
+    </fieldset>
+    <button id="toggle-skill-levels">Switch Skill Levels</button>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div style="text-align: center;">
+        <h2>Projects</h2>
+        <fieldset>
+          <figure>
+            <div class="project-card">
+                <div class="front">
+                    <h3>Portfolio Website</h3>
+                    
+                        <div class="back">
+                            <p>Technologies:</dt><dd>HTML, CSS, Python,MYSQL</p>
+                            <img src="Screenshot 2025-09-12 190241.png"  width="30%">
+                        </div>
+                        
+                </div>
+
+                <div class="front">
+                    <h3>Creditrisk Analysis</h3>
+                    
+                        <div class="back">
+                            <p>Technologies:</dt><dd>HTML,Python</p>
+                            <img src="images.png"  width="30%" height="200">
+                        </div>
+                        
+                </div>
+                
+            </div>
+            </figure>
+        </fieldset>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications">
+    <div style="text-align: center;">
+    <h2>Certifications</h2>
+    <fieldset>
+    <dl>
+      <dt><span class="badge">⭐ Software Developer</span></dt><br>
+      <dd>  Data Developers - 2023</dd><br>
+      <dt>python skill test</dt>
+    </dl>
+    </fieldset> 
+    </div>
+  </section>
+
+  <!-- Hobbies -->
+  <section id="hobbies">
+    <div style="text-align: center;">
+    <h2>Hobbies</h2>
+    <fieldset>
+    <figure>
+      <img src="download (2).jpg" alt="Gaming" width="70%" height="250">
+      <figcaption>Gaming</figcaption>
+    </figure>
+    <figure>
+      <img src="manhattan-skyline_649448-1559.jpg" alt="Traveling" width="80%" height="250">
+      <figcaption>Traveling</figcaption>
+    </figure>
+    <figure>
+      <img src="ai-generated-examine-the-significance-of-debugging-tools-and-techniques-in-the-programming-workflow-and-evaluate-how-they-contribute-to-improving-code-quality-and-efficiency-free-photo.jpg" alt="Gaming" width="80%" height="250">
+      <figcaption>Web Designing and Coding</figcaption>
+    </figure>
+    </fieldset>
+    </div>
+  </section>
+
+  
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>Let's Connect! — <a href="mailto:patelhet0905@example.com">patelhet0905@example.com</a></p>
+    <p>Contact No: 3322445566</p>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="back-to-top">⬆</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
