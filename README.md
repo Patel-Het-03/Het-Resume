@@ -1,4 +1,4 @@
-Responsive Resume site using HTML, CSS, JavaScript
+# Responsive Resume site using HTML, CSS, JavaScript
 
 Included Files
 index.html
